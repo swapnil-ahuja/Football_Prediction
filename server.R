@@ -2,7 +2,7 @@
 library(ggplot2)
 #setwd("~/Documents/R/Football")
 
-for (i in 1994:2016){
+for (i in 2010:2016){
   
   df <- read.csv(paste("Data//",i,".csv",sep=""))
   
